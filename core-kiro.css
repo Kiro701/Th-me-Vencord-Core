@@ -7,8 +7,7 @@
 
 :root {
     --topbar-text: "Modèle par Kiro701";
-    --topbar-color: rgba(255,255,255,0.5);
-
+    --topbar-color: rgba(255, 255, 255, 0.5);
     /* Ne pas modifier */
     --background-base-low: var(--background-transparency-high);
     --background-base-lower: var(--background-transparency-low);
@@ -21,6 +20,8 @@
     --chat-background-default: var(--background-surface-high);
     --control-secondary-background-default: var(--background-transparency-high);
     --red-new-50: var(--primary-color);
+    --modal-background: var(--background-transparency-high);
+    --modal-footer-background: var(--background-transparency-low);
 }
 
 /* =====| Fond d'écran |=====*/
@@ -65,7 +66,7 @@
 /* Font & Text */
 
 .body-md\/medium_RAOoio {
-    color: var(--channel-default);
+    color: var(--general-text);
 }
 
 /* TopBar */
@@ -73,7 +74,6 @@
     content: var(--topbar-text);
     color: var(--topbar-color);
     font-weight: 500;
-
     position: left;
     margin-right: 10px;
 }

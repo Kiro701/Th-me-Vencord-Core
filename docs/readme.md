@@ -23,7 +23,9 @@ C'est section est réservé à la modification de text, ect. Voici les listes de
 
 ``--chat-text-muted`` : Modifie la couleur des textes petits.
 
-``--channel-default`` : Modifie l'ensemble des textes ( salons, mp, activité, pseudos, ect ).
+``--general-text`` : Modifie l'ensemble des textes ( salons, mp, activité, pseudos, ect ).
+
+``--channels-default``: Modifie l'ensemble des textes d'activité et rôle de serveur.
 
 *Exemple de configuration de base pour fond sombre :*
 ```css
@@ -31,7 +33,7 @@ C'est section est réservé à la modification de text, ect. Voici les listes de
     --text-default: white;
     --font-default: rgb(59, 59, 59);
     --chat-text-muted: gray;
-    --channel-default: white;
+    --general-text: white;
 ```
 
 ## TopBar
