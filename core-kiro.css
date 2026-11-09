@@ -6,6 +6,8 @@
  */
 
 :root {
+    
+    --general-text: gray;
     --topbar-text: "Modèle par Kiro701";
     --topbar-color: rgba(255, 255, 255, 0.5);
     /* Ne pas modifier */

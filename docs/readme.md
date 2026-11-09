@@ -23,7 +23,7 @@ C'est section est réservé à la modification de text, ect. Voici les listes de
 
 ``--chat-text-muted`` : Modifie la couleur des textes petits.
 
-``--general-text`` : Modifie l'ensemble des textes ( salons, mp, activité, pseudos, ect ).
+``--general-text`` : Modifie l'ensemble des textes ( salons, mp, activité, pseudos, ect ; Par défault : ``gray``).
 
 ``--channels-default``: Modifie l'ensemble des textes d'activité et rôle de serveur.
 
