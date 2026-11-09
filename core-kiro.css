@@ -1,0 +1,79 @@
+/**
+ * @name Vencord Core Kiro
+ * @author Kiro701
+ * @description Modèle de référence de création de thème
+ * @version 0.0.1
+ */
+
+:root {
+    --topbar-text: "Modèle par Kiro701";
+    --topbar-color: rgba(255,255,255,0.5);
+
+    /* Ne pas modifier */
+    --background-base-low: var(--background-transparency-high);
+    --background-base-lower: var(--background-transparency-low);
+    --background-base-lowest: var(--background-transparency-low);
+    --background-surface-high: var(--background-transparency-low);
+    --background-gradient-lower: var(--background-transparency-low);
+    --background-gradient-high: var(--background-transparency-low);
+    --background-surface-higher: var(--background-transparency-high);
+    --brand-500: var(--primary-color);
+    --chat-background-default: var(--background-surface-high);
+    --control-secondary-background-default: var(--background-transparency-high);
+    --red-new-50: var(--primary-color);
+}
+
+/* =====| Fond d'écran |=====*/
+/* Fond d'écran */
+.container_pog62O {
+    background-image: var(--background-image);
+    background-size: cover;
+}
+
+/* Zone de contrôle + activité */
+.activityPanel_pog62O,
+/* Card activité d'ami */
+.container_9U6LUN,
+/* Menu de paramètre */
+.sidebar_cR4ic2,
+.contentHeader_3Rvb29,
+.modalContentInner__F9ieB,
+.container_dvN-MP,
+.content_3Rvb29,
+/* Popup option */
+.lookFilled_uFkqU2.popout_uFkqU2,
+.lookFilled_uFkqU2.popout_uFkqU2.popoutPositionTop_uFkqU2,
+.popout_uFkqU2,
+.popout_uFkqU2.popoutPositionTop_uFkqU2 {
+    background: var(--background-transparency-high);
+}
+
+.wrapper_5dqHTG,
+.sidebar_pog62O:after {
+    background: var(--background-transparency-low);
+}
+
+.panels_pog62O {
+    background: transparent;
+}
+
+.embedFull_XyW1ZT,
+.withAccentColor_rc97-L {
+    background: var(--background-transparency-heavy);
+}
+
+/* Font & Text */
+
+.body-md\/medium_RAOoio {
+    color: var(--channel-default);
+}
+
+/* TopBar */
+#app-mount .title_LnjVAX .defaultColor_MMUIw6::before {
+    content: var(--topbar-text);
+    color: var(--topbar-color);
+    font-weight: 500;
+
+    position: left;
+    margin-right: 10px;
+}
