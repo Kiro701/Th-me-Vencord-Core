@@ -46,3 +46,14 @@ C'est section est réservé à la modification de text, ect. Voici les listes de
     --topbar-text: "Mon thème • by Me";
     --topbar-color: gray;
 ```
+## Notification et Mention
+
+Pour modifier la couleur des mentions, faut modifier la variable :
+```css
+    --mention: <color>
+```
+
+Pour modifier la barre de notification, faut modifier la variable :
+```css
+    --bar-notif: <color>
+```

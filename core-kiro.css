@@ -6,8 +6,10 @@
  */
 
 :root {
+    /* Default */
+    --bar-notif: hsl(var(--blurple-50-hsl) / 1);
+    --mention: rgb(206, 42, 42);
     
-    --general-text: gray;
     --topbar-text: "Modèle par Kiro701";
     --topbar-color: rgba(255, 255, 255, 0.5);
     /* Ne pas modifier */
@@ -18,11 +20,11 @@
     --background-gradient-lower: var(--background-transparency-low);
     --background-gradient-high: var(--background-transparency-low);
     --background-surface-higher: var(--background-transparency-high);
-    --brand-500: var(--primary-color);
+    --brand-500: var(--bar-notif);
     --card-background-default: var(--background-transparency-high);
     --chat-background-default: var(--background-surface-high);
     --control-secondary-background-default: var(--background-transparency-high);
-    --red-new-50: var(--primary-color);
+    --red-new-50: var(--mention);
     --modal-background: var(--background-transparency-high);
     --modal-footer-background: var(--background-transparency-low);
 
@@ -83,8 +85,8 @@
 
 /* Font & Text */
 
-.body-md\/medium_RAOoio {
-    color: var(--general-text);
+.body-md/medium_RAOoio {
+    color: var(--general-text) none;
 }
 
 /* TopBar */
